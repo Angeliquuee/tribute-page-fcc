@@ -1,0 +1,90 @@
+/* CAROUSEL STUFF */
+.carousel{
+    background: #8bb18b;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px;
+}
+
+.carousel-slide {
+  margin: auto;
+}
+
+.item {
+  height: 100vh;
+}
+
+.item img {
+  height: 100%!important;
+  margin: auto;
+}
+
+.carousel-control {
+  background : none!important;
+}
+
+/* JUMBOTRON HEADER */
+.jumbotron h1 {
+  font-family: 'Prata', serif;
+  color: #FFF;
+}
+
+.lead {
+  color: #DCDCDC;
+}
+
+.jumbotron {
+  opacity: 0.8;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bed4be+0,92b892+17,689c68+33,1e6c1e+67,134513+84,081c08+100 */
+  background: #bed4be; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #bed4be 0%, #92b892 17%, #689c68 33%, #1e6c1e 67%, #134513 84%, #081c08 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #bed4be 0%,#92b892 17%,#689c68 33%,#1e6c1e 67%,#134513 84%,#081c08 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #bed4be 0%,#92b892 17%,#689c68 33%,#1e6c1e 67%,#134513 84%,#081c08 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bed4be', endColorstr='#081c08',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/*BACKGROUND COLOR*/
+body {
+ background-color: #DCDCDC !important;
+}
+
+/* TRIBUTE INFORMATION */
+
+h2 {
+  text-align: center;
+  font-family: 'Prata', serif;
+  opacity: 0.9
+}
+
+#tribute-info {
+  text-align: justify;
+  margin-top: 20px;
+  padding: 300px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.Paragraph-Header {
+  padding-left: 240px;
+  opacity: 0.8;
+  font-weight: 5px;
+  margin-top: 60px;
+}
+
+/* #Youtube-Video {
+}
+ */
+
+h6 {
+  font-weight: bold !important;
+}
+
+/* IMG NOT EXCEEDING MAX-WIDTH */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
